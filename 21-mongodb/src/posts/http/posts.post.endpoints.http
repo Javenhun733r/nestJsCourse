@@ -1,0 +1,15 @@
+# {\r\n    \"@context\": \"https:\/\/schema.org\",\r\n    \"@type\": \"Person\"\r\n  }
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title": "What's new with NestJS",
+  "postType": "post",
+  "slug": "new-with-nest-js",
+  "status": "draft",
+  "content": "post-content",
+  "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+  "publishOn": "2024-03-16T07:46:32+0000",
+  "author": "69ba74d7301e3d9ddc70da13",
+	"tags": ["69ba7f12ed39df6279abbc58","69ba7f44ed39df6279abbc5c"]
+}
